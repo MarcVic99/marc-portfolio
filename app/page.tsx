@@ -99,14 +99,14 @@ const projects: Project[] = [
       "Videojuego móvil de Player2Player desarrollado durante Free2Play Campus. Participación en gameplay y features.",
     impact: "Professional incubator project",
     image:
-      "/projects/freexpace-cover.png",
+      "/projects/freeXpace-cover.png",
     links: [
       { label: "Store page", href: "https://play.google.com/store/apps/details?id=com.PlayerToPlayer.FreeXpaceWavesRift&hl=en_GB", icon: Smartphone },
 { label: "Case study", href: "/projects/freexpace", icon: ArrowUpRight },    ],
     featured: true,
   },
   {
-    title: "Sales Tracker App",
+    title: "Sales Tracker App - Profitly",
     category: "Apps",
     type: "Flutter App",
     stack: ["Flutter", "Dart", "Drift", "Riverpod"],
@@ -355,11 +355,11 @@ export default function PortfolioLanding() {
               </div>
               <pre className="overflow-hidden text-sm leading-7 text-slate-300">
                 <code>{`const developer = {
-  name: "Marc Vicente",
-  focus: ["Gameplay", "Apps", "Web"],
-  stack: ["Unity", "Flutter", "C++", "C#"],
-  status: "building interactive products"
-};`}</code>
+                  name: "Marc Vicente",
+                  focus: ["Gameplay", "Apps", "Web"],
+                  stack: ["Unity", "Flutter", "C++", "C#"],
+                  status: "building interactive products"
+                };`}</code>
               </pre>
               <div className="mt-8 grid grid-cols-2 gap-3">
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
