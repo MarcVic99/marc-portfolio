@@ -67,14 +67,14 @@ export default function Home() {
           <div className="hero-feature-image">
             <Image
               src="/projects/multiversos-inicio.webp"
-              alt="Pantalla de inicio de Multiversos con el texto PRESS TO START"
+              alt="Pantalla de inicio de Multiversus con el texto PRESS TO START"
               fill
               preload
               sizes="(max-width: 820px) 100vw, 54vw"
             />
           </div>
           <div className="feature-caption">
-            <div><p>Prototipo en desarrollo</p><strong>Multiversos</strong></div>
+            <div><p>Prototipo en desarrollo</p><strong>Multiversus</strong></div>
             <span className="circle-arrow"><ArrowUpRight size={23} aria-hidden="true" /></span>
           </div>
         </Link>
@@ -117,7 +117,7 @@ export default function Home() {
         <div className="focus-list">
           <div>
             <h3>Eventos y progresión</h3>
-            <p className="body-copy">Quiero explorar cómo las misiones y recompensas dan a los jugadores motivos para volver. En Multiversos he prototipado interfaces de colección, misiones y eventos.</p>
+            <p className="body-copy">Quiero explorar cómo las misiones y recompensas dan a los jugadores motivos para volver. En Multiversus he prototipado interfaces de colección, misiones y eventos.</p>
           </div>
           <div>
             <h3>Métricas y calidad</h3>

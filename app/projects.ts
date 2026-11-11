@@ -21,12 +21,12 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: "multiversos",
-    title: "Multiversos",
+    title: "Multiversus",
     category: "Videojuegos",
     context: "Prototipo en desarrollo",
     summary: "Juego táctico de cartas en Unity que combina construcción de mazos, gestión de recursos y combate por turnos.",
     stack: ["Unity", "C#", "Diseño de sistemas"],
-    cover: { src: "/projects/multiversos-inicio.webp", alt: "Pantalla de inicio de Multiversos con el texto PRESS TO START" },
+    cover: { src: "/projects/multiversos-inicio.webp", alt: "Pantalla de inicio de Multiversus con el texto PRESS TO START" },
     details: [
       { title: "Reglas y decisiones", text: "El coste de las cartas, la posición de las unidades y el alcance de los ataques determinan qué jugadas están disponibles en cada turno." },
       { title: "Implementación del combate", text: "El prototipo separa las reglas del tablero, la mano, los recursos y el combate. Incluye un rival controlado por IA para probar el flujo de partida." },
@@ -35,7 +35,7 @@ export const projects: Project[] = [
     ],
     gallery: [
       { src: "/projects/multiversos-menu.webp", alt: "Menú del prototipo con accesos a eventos, misiones y colección" },
-      { src: "/projects/multiversos-combate.webp", alt: "Partida de Multiversos con el tablero, la mano y los indicadores de turno" },
+      { src: "/projects/multiversos-combate.webp", alt: "Partida de Multiversus con el tablero, la mano y los indicadores de turno" },
     ],
   },
   {
