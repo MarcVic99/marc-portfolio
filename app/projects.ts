@@ -26,7 +26,7 @@ export const projects: Project[] = [
     context: "Prototipo en desarrollo",
     summary: "Juego táctico de cartas en Unity que combina construcción de mazos, gestión de recursos y combate por turnos.",
     stack: ["Unity", "C#", "Diseño de sistemas"],
-    cover: { src: "/projects/multiversos-combate.webp", alt: "Tablero de Multiversos con unidades, mano de cartas e indicadores de turno" },
+    cover: { src: "/projects/multiversos-inicio.webp", alt: "Pantalla de inicio de Multiversos con el texto PRESS TO START" },
     details: [
       { title: "Reglas y decisiones", text: "El coste de las cartas, la posición de las unidades y el alcance de los ataques determinan qué jugadas están disponibles en cada turno." },
       { title: "Implementación del combate", text: "El prototipo separa las reglas del tablero, la mano, los recursos y el combate. Incluye un rival controlado por IA para probar el flujo de partida." },
@@ -34,8 +34,8 @@ export const projects: Project[] = [
       { title: "Progresión y contenidos", text: "El prototipo de menú explora la colección, la edición de mazos, las misiones, los eventos y la presentación de recompensas. Son sistemas de prototipo que permiten estudiar cómo se conectan el combate y la progresión." },
     ],
     gallery: [
-      { src: "/projects/multiversos-mazo.webp", alt: "Editor de mazos del prototipo" },
       { src: "/projects/multiversos-menu.webp", alt: "Menú del prototipo con accesos a eventos, misiones y colección" },
+      { src: "/projects/multiversos-combate.webp", alt: "Partida de Multiversos con el tablero, la mano y los indicadores de turno" },
     ],
   },
   {
@@ -94,6 +94,44 @@ export const projects: Project[] = [
       { src: "/projects/difriho-documentacion.jpg", alt: "Página de información técnica con acceso al buscador de documentos" },
     ],
     link: { label: "Visitar la web de Difriho", href: "https://www.difriho.com/" },
+  },
+  {
+    slug: "mas-fred",
+    title: "+Fred",
+    category: "Web",
+    context: "Web corporativa y catálogo profesional",
+    summary: "Web de maquinaria profesional para hostelería, con un catálogo por familias y acceso a documentación técnica.",
+    stack: ["PHP", "JavaScript", "HTML", "CSS"],
+    cover: { src: "/projects/mas-fred-inicio.jpg", alt: "Inicio de +Fred con el catálogo de maquinaria profesional" },
+    details: [
+      { title: "Catálogo por especialidad", text: "La portada permite recorrer familias de maquinaria y consultar el catálogo completo de +Fred." },
+      { title: "Recursos para profesionales", text: "La web reúne la documentación técnica, las descargas, el área profesional y los datos de contacto de las delegaciones." },
+    ],
+    link: { label: "Visitar la web de +Fred", href: "https://www.mfred.com/" },
+  },
+  {
+    slug: "difriho-fred-clientes",
+    title: "Difriho y +Fred · Clientes",
+    category: "Apps",
+    context: "Aplicaciones Android para clientes",
+    summary: "Apps de Difriho y +Fred para consultar desde el móvil el catálogo, la documentación técnica y los datos de contacto de cada marca.",
+    stack: ["Android", "Kotlin", "Jetpack Compose", "WebView"],
+    details: [
+      { title: "Acceso a los recursos", text: "Cada app tiene una pantalla de inicio con accesos al catálogo, a la web y a la información técnica de su marca." },
+      { title: "Navegación móvil", text: "Las apps combinan una interfaz nativa en Compose con pantallas web integradas para consultar los recursos que publica cada marca." },
+    ],
+  },
+  {
+    slug: "difriho-fred-admin",
+    title: "Difriho y +Fred · Administración",
+    category: "Apps",
+    context: "Aplicaciones Android de uso interno",
+    summary: "Apps para acceder a los paneles de administración de cada marca y confirmar inicios de sesión desde el móvil.",
+    stack: ["Android", "Kotlin", "Jetpack Compose", "Biometría", "2FA"],
+    details: [
+      { title: "Acceso a los paneles", text: "Cada app reúne el acceso al panel web y los controles de seguridad de la marca correspondiente." },
+      { title: "Confirmación de accesos", text: "Las apps permiten aprobar solicitudes de inicio de sesión con biometría y ofrecen un código de seis dígitos como alternativa." },
+    ],
   },
   {
     slug: "light-keeper",

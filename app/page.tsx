@@ -64,13 +64,15 @@ export default function Home() {
           </div>
         </div>
         <Link className="hero-feature" href="/projects/multiversos">
-          <Image
-            src="/projects/multiversos-combate.webp"
-            alt=""
-            fill
-            preload
-            sizes="(max-width: 820px) 100vw, 54vw"
-          />
+          <div className="hero-feature-image">
+            <Image
+              src="/projects/multiversos-inicio.webp"
+              alt="Pantalla de inicio de Multiversos con el texto PRESS TO START"
+              fill
+              preload
+              sizes="(max-width: 820px) 100vw, 54vw"
+            />
+          </div>
           <div className="feature-caption">
             <div><p>Prototipo en desarrollo</p><strong>Multiversos</strong></div>
             <span className="circle-arrow"><ArrowUpRight size={23} aria-hidden="true" /></span>
